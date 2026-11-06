@@ -1,0 +1,31 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/user/edit/6acd49fe69b75bf9143045ce
+method: PUT
+headers:
+  Authorization: "{{bearer_token_0oq4}}"
+body:
+  type: formdata
+  content:
+    - type: text
+      key: username
+      value: Rannan A A
+      description: ""
+      disabled: false
+    - type: text
+      key: password
+      value: Rannan12345
+      description: ""
+      disabled: false
+    - type: text
+      key: bio
+      value: "i am writer "
+      description: ""
+      disabled: false
+    - type: file
+      key: picture
+      src:
+        - postman-cloud:///1f1c9e47-9472-4c30-b368-79efecf9a56f
+      description: ""
+      disabled: false
+order: 4000

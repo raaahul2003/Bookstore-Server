@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:5001/api/tasks
+method: POST
+headers:
+  Authorization: "{{bearer_token_19nl}}"
+body:
+  type: formdata
+  content: []
+order: 4000

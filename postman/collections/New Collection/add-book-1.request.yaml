@@ -1,0 +1,23 @@
+$kind: http-request
+name: add-book
+url: http://localhost:3000/add-book
+method: POST
+headers:
+  Authorization: "{{bearer_token_01m7}}"
+body:
+  type: json
+  content: |-
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "pages": 352,
+      "imageUrl": "https://example.com/images/pragmatic-programmer.jpg",
+      "price": 49.99,
+      "discountPrice": 39.99,
+      "abstract": "A guide to software development best practices, covering topics from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+      "publisher": "Addison-Wesley Professional",
+      "isbn": "978-0135957059",
+      "language": "English",
+      "category": "Programming"
+    }
+order: 5000

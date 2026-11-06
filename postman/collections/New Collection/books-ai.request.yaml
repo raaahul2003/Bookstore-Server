@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/books-ai
+method: POST
+headers:
+  Authorization: "{{bearer_token_0hzg}}"
+body:
+  type: json
+  content: |-
+    {
+        "title":
+    }
+order: 14144

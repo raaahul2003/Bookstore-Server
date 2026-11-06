@@ -1,0 +1,23 @@
+$kind: collection
+variables:
+  - key: bearer_token_0oq4
+    secret: true
+    disabled: false
+  - key: bearer_token_0j0s
+    secret: true
+    disabled: false
+  - key: bearer_token_01m7
+    secret: true
+    disabled: false
+  - key: bearer_token_0uba
+    secret: true
+    disabled: false
+  - key: bearer_token_19nl
+    secret: true
+    disabled: false
+  - key: bearer_token_06q5
+    secret: true
+    disabled: false
+  - key: bearer_token_0hzg
+    secret: true
+    disabled: false

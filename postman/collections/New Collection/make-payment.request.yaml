@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:3000/make-payment/6addba7863a767407ab9df6e
+method: GET
+headers:
+  Authorization: "{{bearer_token_06q5}}"
+body:
+  type: json
+  content: ""
+order: 11000
