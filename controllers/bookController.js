@@ -130,8 +130,8 @@ exports.bookpaymentController = async (req, res) => {
             buyerEmail: loginUserMail
 
         },
-        success_url: 'http://localhost:5173/payment-success?session_id={CHECKOUT_SESSION_ID}',
-        cancel_url: 'http://localhost:5173/payment-failed'
+        success_url: 'https://bookstore-app-dusky-nine.vercel.app/payment-success?session_id={CHECKOUT_SESSION_ID}',
+        cancel_url: 'https://bookstore-app-dusky-nine.vercel.app/payment-failed'
 
     });
     console.log(session);
